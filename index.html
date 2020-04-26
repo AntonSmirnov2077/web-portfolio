@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Revalia&display=swap" rel="stylesheet">
+    <title>Web-portfolio</title>
+</head>
+    <body>
+
+        <div id="homepage" class="container">
+            <header class="header">
+                <span class="logo">AS</span>
+                <nav class="nav-menu">
+                    <a href="#homepage" rel='m_PageScroll2id' class="nav-link homepage">ГЛАВНАЯ</a>
+                    <a href="#about" rel='m_PageScroll2id' class="nav-link about-me">ОБ АВТОРЕ</a>
+                    <a href="#jobs" rel='m_PageScroll2id' class="nav-link jobs">РАБОТЫ</a>
+                    <a href="#process" rel='m_PageScroll2id' class="nav-link process">ПРОЦЕСС</a>
+                    <a href="#contacts" rel='m_PageScroll2id' class="nav-link contacts">КОНТАКТЫ</a>
+                </nav>
+            </header>
+            <!--шапка-->
+            <div class="promo">
+                <i class="notebook">
+                    <img src="img/frame.png" alt="">
+                </i>
+                <div class="promo-text">
+                    <h1 class="promo-title">Веб-разработка</h1>
+                    <p class="promo-subtitle">Тоже увлекаешься веб-разработкой? Видишь себя в будущем востребованным специалистом в этой сфере? Тогда давай развиваться в этом направлении вместе! Ты сможешь узнать обо мне на этой странице!</p>
+                    <a href="#contacts" rel='m_PageScroll2id'>
+                        <button href="#contacts" id="about" class="button-write">
+                            <span class="button-write-text">НАПИСАТЬ МНЕ</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <!--блок промо-->
+        </div>
+
+        <h2 class="title-me">Обо мне</h2>
+        <p class="p-about-me">Привет, меня зовут Антон. Я являюсь учеником средней школы. <br> Изучаю профессию веб-разработчика. <br> Обладаю навыками HTML/CSS верстки, адаптивной верстки, имеется опыт работы с wordpress.</p>
+
+        <div class="container-projects">
+            <div class="block-1">
+                <img src="img/project.png" alt="" class="project-logo">
+                <div class="project-text">
+                    <h3 class="project-title">3</h3>
+                    <span class="project-span">проекта</span>
+                </div>
+            </div>
+            <div class="block-2">
+                <img src="img/project.png" alt="" class="project-logo">
+                <div class="project-text">
+                    <h3 class="project-title">HTML/CSS</h3>
+                    <span class="project-span">верстка</span>
+                </div>
+            </div>
+            <div class="block-3">
+                <img src="img/project.png" alt="" class="project-logo">
+                <div class="project-text">
+                    <h3 class="project-title">Адаптивная</h3>
+                    <span class="project-span">верстка</span>
+                </div>
+            </div>
+            <div class="block-4">
+                <img src="img/project.png" alt="" class="project-logo">
+                <div class="project-text">
+                    <h3 class="project-title">WordPress</h3>
+                    <span class="project-span"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-skills">
+            <div class="skills-text">
+                <h2 class="my-skills">Мои навыки</h2>
+                <p class="skills">HTML/CSS верстка</p>
+                <p class="skills">Адаптивная верстка</p>
+                <p class="skills">Работа с Wordpress</p>
+            </div>
+            <img src="img/photo.jpg" alt="" class="photo">
+        </div>
+        <!--навыки-->
+
+        <div id="process" class="container-process">
+            <h2 class="process-title">Как я работаю</h2>
+            <p class="process-text">Перед началом работы я изучаю дизайн-макет. Продумываю пути решения тех или иных задач. <br> Затем уже идёт этап верстки. После завершения этого <br> этапа настаёт время выгрузка на сервер и привязка домена. </p>            
+            <img src="img/videos.jpg" alt="" class="video">            
+        </div>
+        <!--ход работы-->
+        
+        <div id="jobs" class="container-examples">
+            <h2 class="examples-title">Примеры работ</h2>
+            <p class="examples-text">Delivery Food - онлайн-сервис по доставке еды на дом (HTML/CSS, адаптивная верстка, JavaScript) <br> StarWars - промо-сайт последнего эпизода звёздных войн (HTML/CSS, адаптивная верстка, JavaScript, jQuery) <br> Trailer.Go - киноблог, на котором выкладываются трейлеры самых разнообразных фильмов (WordPress)</p>
+            <div class="examples-images">
+                <a href="https://antonsmirnov2077.github.io/delivery-food/index.html">
+                    <img src="img/delivery.png" alt="" class="examples delivery">
+                </a>
+                <a href="https://antonsmirnov2077.github.io/starwars/">
+                    <img src="img/starwars.png" alt="" class="examples">
+                </a>
+                <a href="http://cu14359.tmweb.ru/">
+                    <img src="img/trailer.png" alt="" class="examples trailer">
+                </a>
+            </div>
+        </div>
+        <!--примеры-->
+
+        <div id="contacts" class="container-basement">
+            <h2 class="basement-title">Хотите веб-сайт?</h2>
+            <p class="basement-text">Чтобы связаться со мной, вам нужно отправить сообщение мне на почту, <br>  или перейти ко мне в профиль ВКонтаке и Instagram, указанные в подвале сайта</p>
+            <div class="input">
+                <input type="text" class="input-top name" placeholder="Ваше имя">
+                <input type="text" class="input-top e-mail" placeholder="Ваш e-mail">
+            </div>
+            <div>
+                <input type="text" class="input-down" placeholder="Сообщение">
+            </div>
+            <button class="button-send">
+                <span class="button-write-text">Отправить</span>
+            </button>
+        </div>
+        <!--Отправка сообщения-->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <h3 class="footer-name">Смирнов Антон</h3>
+                <span class="security">(с) 2020. Все права защищены.</span>
+            </div>
+            <div class="logos">
+                <a href="https://vk.com/m1lasha" class="vk">
+                    <img src="img/vk.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/hellsy_/?hl=ru" class="insta">
+                    <img src="img/insta.png" alt="">
+                </a>
+            </div>
+        </footer>
+        <!--подвал-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
